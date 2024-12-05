@@ -1,0 +1,21 @@
+#countlabel {
+    display: block;
+    text-align: center;
+    font-size: 10em; /* Added 'px' as the unit for font size */
+    font-family: Arial, sans-serif; /* Added a fallback font */
+}
+#BtnContainer{
+    text-align: center;
+}
+.buttons{
+    padding:10px ;
+    font-size:1.5em ;
+    color: beige;
+    background-color: blueviolet;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color;
+}
+.buttons:hover{
+    background-color: rgb(71, 10, 129);
+}
